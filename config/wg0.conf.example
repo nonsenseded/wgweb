@@ -1,0 +1,13 @@
+[Interface]
+Address = 10.0.0.1/24
+ListenPort = 51820
+PrivateKey = <server_private_key>
+
+[Peer]
+PublicKey = <client_public_key>
+AllowedIPs = 10.0.0.2/32
+
+# Additional peers can be added below
+# [Peer]
+# PublicKey = <another_client_public_key>
+# AllowedIPs = 10.0.0.3/32

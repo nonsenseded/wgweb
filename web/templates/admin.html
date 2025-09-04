@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin - User Management</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Admin - User Management</h1>
+        <ul id="user-list">
+            <!-- User list will be populated here -->
+        </ul>
+        <h2>Create New User</h2>
+        <form id="create-user-form">
+            <label for="new-username">Username:</label>
+            <input type="text" id="new-username" name="username" required>
+            <label for="new-password">Password:</label>
+            <input type="password" id="new-password" name="password" required>
+            <label for="user-role">Role:</label>
+            <select id="user-role" name="role">
+                <option value="user">User</option>
+                <option value="admin">Admin</option>
+            </select>
+            <button type="submit">Create User</button>
+        </form>
+    </div>
+    <script>
+        // JavaScript for handling user management actions will go here
+    </script>
+</body>
+</html>
